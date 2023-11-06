@@ -8,8 +8,8 @@ Base on nginx
 
 # run the docker container with your own build
 
-    git clone 
-    docker build -t "docker-2048" .
+    git clone https://github.com/tekstac-github/ecslab.git
+    docker build -t "2048" .
     docker run -d -p 80:80 2048
 
 # run the docker container by pulling the image directly
