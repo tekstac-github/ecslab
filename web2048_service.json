@@ -1,11 +1,11 @@
 {
-    "cluster": "web2048",
-    "serviceName": "web2048",
-    "taskDefinition": "web2048",
+    "cluster": "2048",
+    "serviceName": "2048",
+    "taskDefinition": "2048",
     "loadBalancers": [
         {
             "targetGroupArn": "arn:aws:elasticloadbalancing:ap-south-1:457217855850:targetgroup/ECSTargetGroup/0d59a4351bb6a631",
-            "containerName": "web2048",
+            "containerName": "2048",
             "containerPort": 80
         }
     ],
