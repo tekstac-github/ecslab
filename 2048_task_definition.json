@@ -1,6 +1,7 @@
 {
     "family": "2048",
     "networkMode": "awsvpc",
+    "executionRoleArn": "arn:aws:iam::457217855850:role/ecstaskdefinitionrole",
     "containerDefinitions": [
         {
             "name": "2048",
